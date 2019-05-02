@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2;
+    background-image: url("../images/ricepaper.png")
+}
+
+#header {
+    background: #ffffff;
+    border: 2px solid #cccccc;
+}
+
+#header-name {
+    display: inline-block;
+    padding: 9px;
+    margin: 0 35% 0 17%;
+    width: 200px;
+    background: #4aaaa5;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: inline-block;
+    color: rgb(189, 188, 188);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: teal;
+  }
+
+.container {
+    margin: auto;
+    width: 960px;
+    min-height: 430px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+}
+
+#page-heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+hr {
+    height: 4px;
+    background-color: #dddddd;
+    border: none; 
+}
+
+#profile-pic {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#project-image {
+    position: relative;
+}
+
+#project-name {
+    position: relative;
+    bottom: 100px;
+    background-color: #4aaaa5;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+input {
+    width: 940px;
+    padding: 5px;
+}
+
+#submit {
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: visible;
+    width: 100px;
+    background: #4aaaa5;
+    color: white;
+    border: none;
+}
+
+#footer {
+    position: static;
+    bottom: 0;
+    padding: 20px;
+    background: #666666;
+    font-size: 10px;
+    color: rgb(184, 183, 183);
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+    .wrapper {
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    header {
+        position: static;
+    }
+    .wrapper {
+        width: 300px;
+    }
+}
