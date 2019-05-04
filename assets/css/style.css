@@ -131,7 +131,18 @@ input {
 @media screen and (max-width: 640px) {
     header {
         position: static;
+        text-align: center;
     }
+
+    #header-name {
+        margin: auto;
+        width: 96%; 
+    }
+
+    ul {
+        margin: auto;
+    }
+
     .wrapper {
         width: 300px;
     }
